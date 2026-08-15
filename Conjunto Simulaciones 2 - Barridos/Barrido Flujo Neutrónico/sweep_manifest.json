@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-08-13T19:38:24+00:00",
+  "sweep_type": "flux",
+  "description": "Barrido Flujo Neutrónico",
+  "fixed_params": {
+    "XNORM_base": 1,
+    "phi_base": "1.0038e+14"
+  },
+  "n": 5,
+  "simulations": [
+    {
+      "folder": "TeO2x0.049810719266786214",
+      "params": {
+        "phi": 5000000000000,
+        "XNORM": 0.049810719266786214
+      }
+    },
+    {
+      "folder": "TeO2x0.664474995018928",
+      "params": {
+        "phi": 66700000000000,
+        "XNORM": 0.664474995018928
+      }
+    },
+    {
+      "folder": "TeO2x0.8477784419207013",
+      "params": {
+        "phi": 85100000000000,
+        "XNORM": 0.8477784419207013
+      }
+    },
+    {
+      "folder": "TeO2x1",
+      "params": {
+        "phi": 100380000000000,
+        "XNORM": 1
+      }
+    },
+    {
+      "folder": "TeO2x996.2143853357243",
+      "params": {
+        "phi": 100000000000000000,
+        "XNORM": 996.2143853357243
+      }
+    }
+  ],
+  "excluded_base_files": [
+    "collaps/cpu_time.txt",
+    "cpu_time.txt"
+  ]
+}

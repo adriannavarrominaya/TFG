@@ -1,0 +1,9 @@
+# tipo: computacional_referencia
+# descripcion: Exp. 3 - Modelo computacional del paper (EOI+2h)
+# fase: enfriamiento
+# isotopo: I131
+# unidad_t: h
+# unidad_A: MBq/g
+# fuente: paper de referencia, seccion del tercer experimento; valor calculado por el modelo del grupo
+t;A
+2,0000;30,100

@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-08-13T19:57:01+00:00",
+  "reference_folder": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Simulación v.0",
+  "ifinal": "I131",
+  "ifinal_zzaaas": 531310,
+  "pcnt": 0.01,
+  "nmax": 5,
+  "tape22_folder": "tape22",
+  "tape24_folder": "tape24",
+  "isotopes": [
+    {
+      "name": "TE120",
+      "c_i": 4.459e+17,
+      "zzaaas": 521200,
+      "xcomp": 4.459e-07,
+      "iso_folder": "iso_TE120",
+      "chains_folder": "chains_TE120"
+    },
+    {
+      "name": "TE122",
+      "c_i": 1.209e+19,
+      "zzaaas": 521220,
+      "xcomp": 1.209e-05,
+      "iso_folder": "iso_TE122",
+      "chains_folder": "chains_TE122"
+    },
+    {
+      "name": "TE123",
+      "c_i": 4.217e+18,
+      "zzaaas": 521230,
+      "xcomp": 4.217e-06,
+      "iso_folder": "iso_TE123",
+      "chains_folder": "chains_TE123"
+    },
+    {
+      "name": "TE124",
+      "c_i": 2.237e+19,
+      "zzaaas": 521240,
+      "xcomp": 2.2369999999999998e-05,
+      "iso_folder": "iso_TE124",
+      "chains_folder": "chains_TE124"
+    },
+    {
+      "name": "TE125",
+      "c_i": 3.316e+19,
+      "zzaaas": 521250,
+      "xcomp": 3.3159999999999994e-05,
+      "iso_folder": "iso_TE125",
+      "chains_folder": "chains_TE125"
+    },
+    {
+      "name": "TE126",
+      "c_i": 8.803e+19,
+      "zzaaas": 521260,
+      "xcomp": 8.803e-05,
+      "iso_folder": "iso_TE126",
+      "chains_folder": "chains_TE126"
+    },
+    {
+      "name": "TE128",
+      "c_i": 1.472e+20,
+      "zzaaas": 521280,
+      "xcomp": 0.0001472,
+      "iso_folder": "iso_TE128",
+      "chains_folder": "chains_TE128"
+    },
+    {
+      "name": "TE130",
+      "c_i": 1.57e+20,
+      "zzaaas": 521300,
+      "xcomp": 0.000157,
+      "iso_folder": "iso_TE130",
+      "chains_folder": "chains_TE130"
+    }
+  ],
+  "excluded_base_files": [
+    "collaps/cpu_time.txt",
+    "cpu_time.txt",
+    "fort.17",
+    "fort.24",
+    "fort.6"
+  ]
+}

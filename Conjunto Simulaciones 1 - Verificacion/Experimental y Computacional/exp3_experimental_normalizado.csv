@@ -1,0 +1,10 @@
+# tipo: experimental
+# descripcion: Exp. 3 - I-131 medido en EOI+2h, dos blancos TeO2 de produccion (MURR)
+# fase: enfriamiento
+# isotopo: I131
+# unidad_t: h
+# unidad_A: MBq/g
+# fuente: paper de referencia, seccion del tercer experimento (30 min, flujo termico 8.3e13 n/cm2 s); un punto por blanco, ambos en EOI+2h
+t;A
+2,0000;32,520
+2,0000;32,260

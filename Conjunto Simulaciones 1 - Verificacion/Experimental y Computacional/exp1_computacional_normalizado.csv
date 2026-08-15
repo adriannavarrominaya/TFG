@@ -1,0 +1,19 @@
+# tipo: computacional_referencia
+# descripcion: Fig. 2 - Actividad I-131 computacional de referencia, primer experimento (irradiacion corta)
+# fase: enfriamiento
+# isotopo: I131
+# unidad_t: h
+# unidad_A: MBq/g
+# fuente: digitalizado de la grafica fig2_-_exp_1
+t;A
+0,2709;0,04836
+0,4805;0,07390
+0,7204;0,09358
+0,9316;0,10542
+1,1211;0,11312
+1,5719;0,12388
+1,9023;0,12794
+2,0917;0,12943
+2,2713;0,13049
+2,5020;0,13106
+2,6824;0,13170

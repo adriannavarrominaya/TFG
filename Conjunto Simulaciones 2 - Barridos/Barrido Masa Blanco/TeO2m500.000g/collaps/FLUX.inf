@@ -1,0 +1,16 @@
+  ILIB,IESF =           12          12
+ ihead=           16
+ isfis,igent,isoca,ibest =           0           0           0           0
+  ngroup,ff =         -211           0
+  iuncer =            0
+  iconversion =            0
+ REAL TOTAL FLUX AND AVERAGE ENERGY (MeV)
+ 6.6700E+13
+ 2.0947E-04
+ TOTAL FLUX for subsequent calculation, * FTL*
+ 9.6173E+13
+ TOTAL FLUX after processing, *IESF.EQ.ilib*
+ SHOUD BE EQUAL TO  REAL TOTAL FLUX
+ 6.6700E+13
+ ffftttllg    end/stop
+ 6.6700E+13

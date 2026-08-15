@@ -1,0 +1,406 @@
+{
+  "resumen": {
+    "total": 10,
+    "ok": 10,
+    "fallos": 0,
+    "canceladas": 0
+  },
+  "jobs": [
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 2.524,
+      "inicio": "2026-08-13T19:57:23.432725+00:00",
+      "fin": "2026-08-13T19:57:25.956700+00:00",
+      "step_index": 0,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 2.731,
+      "inicio": "2026-08-13T19:57:25.956765+00:00",
+      "fin": "2026-08-13T19:57:28.687397+00:00",
+      "step_index": 0,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE120",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.971,
+      "inicio": "2026-08-13T19:57:28.687433+00:00",
+      "fin": "2026-08-13T19:57:33.658750+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE120\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE120",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE120\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE120\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE120\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE120",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE122",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.29,
+      "inicio": "2026-08-13T19:57:33.658789+00:00",
+      "fin": "2026-08-13T19:57:37.949056+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE122\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE122",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE122\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE122\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE122\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE122",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE123",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.83,
+      "inicio": "2026-08-13T19:57:37.949091+00:00",
+      "fin": "2026-08-13T19:57:42.779420+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE123\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE123",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE123\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE123\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE123\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE123",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE124",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.418,
+      "inicio": "2026-08-13T19:57:42.779502+00:00",
+      "fin": "2026-08-13T19:57:47.197406+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE124\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE124",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE124\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE124\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE124\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE124",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE125",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.416,
+      "inicio": "2026-08-13T19:57:47.197465+00:00",
+      "fin": "2026-08-13T19:57:51.613294+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE125\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE125",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE125\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE125\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE125\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE125",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE126",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.805,
+      "inicio": "2026-08-13T19:57:51.613332+00:00",
+      "fin": "2026-08-13T19:57:56.417904+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE126\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE126",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE126\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE126\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE126\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE126",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE128",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.476,
+      "inicio": "2026-08-13T19:57:56.417974+00:00",
+      "fin": "2026-08-13T19:58:00.894396+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE128\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE128",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE128\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE128\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE128\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE128",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    },
+    {
+      "workdir": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE130",
+      "estado": "ok",
+      "returncode": 0,
+      "duracion_s": 4.578,
+      "inicio": "2026-08-13T19:58:00.894429+00:00",
+      "fin": "2026-08-13T19:58:05.472472+00:00",
+      "step_index": 3,
+      "step_type": "run",
+      "steps": [
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE130\\acab.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\iso_TE130",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape22\\fort.22",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE130\\fort.22",
+          "estado": "ok"
+        },
+        {
+          "type": "copy",
+          "src": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\tape24\\fort.24",
+          "dst": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE130\\fort.24",
+          "estado": "ok"
+        },
+        {
+          "type": "run",
+          "cmd": [
+            "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE130\\chains.exe"
+          ],
+          "cwd": "C:\\Personal\\Jose\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Simulacion de Referencia\\Cadenas\\chains_TE130",
+          "returncode": 0,
+          "timed_out": false,
+          "estado": "ok"
+        }
+      ]
+    }
+  ]
+}

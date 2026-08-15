@@ -1,0 +1,1 @@
+ Time of operation=    2.218750      seconds

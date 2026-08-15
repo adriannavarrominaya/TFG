@@ -1,0 +1,19 @@
+# tipo: experimental
+# descripcion: Fig. 2 - Actividad I-131 medida, primer experimento (irradiacion corta)
+# fase: enfriamiento
+# isotopo: I131
+# unidad_t: h
+# unidad_A: MBq/g
+# fuente: digitalizado de la grafica fig2_-_exp_1
+t;A
+0,2695;0,05192
+0,4776;0,07065
+0,7198;0,08824
+0,9289;0,09443
+1,1200;0,10597
+1,5689;0,11217
+1,8993;0,11573
+2,0879;0,11680
+2,2683;0,11836
+2,4991;0,11950
+2,6778;0,12043

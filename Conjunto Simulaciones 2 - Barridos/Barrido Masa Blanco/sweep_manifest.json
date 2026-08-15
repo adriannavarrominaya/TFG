@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-08-13T19:49:18+00:00",
+  "sweep_type": "mass",
+  "description": "Barrido Espectro",
+  "fixed_params": {
+    "XNORM_base": 1,
+    "phi_base": "1.0038e+14",
+    "formula": "TeO2",
+    "volumen_cc": "1.0"
+  },
+  "n": 6,
+  "simulations": [
+    {
+      "folder": "TeO2m0.123g",
+      "params": {
+        "mass": 0.1231
+      }
+    },
+    {
+      "folder": "TeO2m1.000g",
+      "params": {
+        "mass": 1
+      }
+    },
+    {
+      "folder": "TeO2m10.000g",
+      "params": {
+        "mass": 10
+      }
+    },
+    {
+      "folder": "TeO2m100.000g",
+      "params": {
+        "mass": 100
+      }
+    },
+    {
+      "folder": "TeO2m500.000g",
+      "params": {
+        "mass": 500
+      }
+    },
+    {
+      "folder": "TeO2m1000.000g",
+      "params": {
+        "mass": 1000
+      }
+    }
+  ],
+  "excluded_base_files": [
+    "collaps/cpu_time.txt",
+    "cpu_time.txt"
+  ]
+}

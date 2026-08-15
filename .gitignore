@@ -1,0 +1,12 @@
+# Ejecutables
+*.exe
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~

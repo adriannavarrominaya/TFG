@@ -1,0 +1,117 @@
+ Reaction types included in the XS Basic Library
+ 
+  10010 1020  175   H   1  (N,G    )H   2                               
+  10020  160   37   H   2  (N,2N   )H   1                               
+  20030 1030  175   HE  3  (N,P    )H   3                               
+  20030 1040   35   HE  3  (N,D    )H   2                               
+  30060  240   35   LI  6  (N,2NA  )H   1                               
+  30060 1050  175   LI  6  (N,T    )HE  4                               
+  30070  250   13   LI  7  (N,3NA  )H   1                               
+  40070  280   27   BE  7  (N,NP   )LI  6                               
+  40090 1070   72   BE  9  (N,A    )HE  6                               
+  40100  170   19   BE 10  (N,3N   )BE  8                               
+  40100  330    2   BE 10  (N,NT   )LI  7                               
+  40110  320    2   BE 11  (N,ND   )LI  9                               
+  40110  370   17   BE 11  (N,4N   )BE  8                               
+  50100 1060    2   B  10  (N,H    )LI  8                               
+  50110  110    2   B  11  (N,2ND  )BE  8                               
+  50110  220   19   B  11  (N,NA   )LI  7                               
+  50110 1170    2   B  11  (N,DA   )HE  6                               
+  60100  340    4   C  10  (N,NH   )BE  7                               
+  60100  440   35   C  10  (N,N2P  )BE  8                               
+  60100 1110   45   C  10  (N,2P   )BE  9                               
+  60100 1120   33   C  10  (N,PA   )LI  6                               
+  60100 1150   53   C  10  (N,PD   )BE  8                               
+  60100 1160    6   C  10  (N,PT   )BE  7                               
+  60110  410    2   C  11  (N,2NP  )B   9                               
+  60110  450    8   C  11  (N,NPA  )LI  6                               
+  70130 1080   29   N  13  (N,2A   )LI  6                               
+  80150  290    2   O  15  (N,N2A  )BE  7                               
+  80160  230    5   O  16  (N,N3A  )HE  4                               
+  90170 1090   14   F  17  (N,3A   )LI  6                               
+  90170 1140   10   F  17  (N,D2A  )BE  8                               
+  90180 1130    4   F  18  (N,T2A  )BE  8                               
+ 100210  300    2   NE 21  (N,2N2A )C  12                               
+ 130240   41   79   AL 24  (N,N    )AL 24M1                             
+ 130250  161    2   AL 25  (N,2N   )AL 24M1                             
+ 130250 1021  175   AL 25  (N,G    )AL 26M1                             
+ 130261   40  175   AL 26M1(N,N    )AL 26                               
+ 140260 1031  175   SI 26  (N,P    )AL 26M1                             
+ 140260 1051    6   SI 26  (N,T    )AL 24M1                             
+ 140270  281   22   SI 27  (N,NP   )AL 26M1                             
+ 140270 1041   29   SI 27  (N,D    )AL 26M1                             
+ 150290 1071  175   P  29  (N,A    )AL 26M1                             
+ 150300  221   15   P  30  (N,NA   )AL 26M1                             
+ 160300 1121   33   S  30  (N,PA   )AL 26M1                             
+ 160310  451    3   S  31  (N,NPA  )AL 26M1                             
+ 160310 1171    6   S  31  (N,DA   )AL 26M1                             
+ 170330 1081   21   CL 33  (N,2A   )AL 26M1                             
+ 170400  171    6   CL 40  (N,3N   )CL 38M1                             
+ 180360  321    2   AR 36  (N,ND   )CL 34M1                             
+ 180410  331    2   AR 41  (N,NT   )CL 38M1                             
+ 190370  341    5   K  37  (N,NH   )CL 34M1                             
+ 190370 1161    6   K  37  (N,PT   )CL 34M1                             
+ 190390 1111   14   K  39  (N,2P   )CL 38M1                             
+ 190400 1061   14   K  40  (N,H    )CL 38M1                             
+ 190400 1151    2   K  40  (N,PD   )CL 38M1                             
+ 190430  241    2   K  43  (N,2NA  )CL 38M1                             
+ 210421  291   13   SC 42M1(N,N2A  )CL 34M1                             
+ 210530  371    2   SC 53  (N,4N   )SC 50M1                             
+ 230470  441    5   V  47  (N,N2P  )SC 45M1                             
+ 260521  411    7   FE 52M1(N,2NP  )MN 50M1                             
+ 270560  111  130   CO 56  (N,2ND  )FE 53M1                             
+ 290690 1022  175   CU 69  (N,G    )CU 70M2                             
+ 290700   42   90   CU 70  (N,N    )CU 70M2                             
+ 290710  162   22   CU 71  (N,2N   )CU 70M2                             
+ 290720  172   11   CU 72  (N,3N   )CU 70M2                             
+ 300700 1032   27   ZN 70  (N,P    )CU 70M2                             
+ 300710  282   14   ZN 71  (N,NP   )CU 70M2                             
+ 300710 1042   18   ZN 71  (N,D    )CU 70M2                             
+ 300720  322    2   ZN 72  (N,ND   )CU 70M2                             
+ 300720 1052   11   ZN 72  (N,T    )CU 70M2                             
+ 300730  332    2   ZN 73  (N,NT   )CU 70M2                             
+ 310630 1091    2   GA 63  (N,3A   )MN 52M1                             
+ 310710 1112    9   GA 71  (N,2P   )CU 70M2                             
+ 310720 1062    6   GA 72  (N,H    )CU 70M2                             
+ 310720 1152    2   GA 72  (N,PD   )CU 70M2                             
+ 310730 1072   40   GA 73  (N,A    )CU 70M2                             
+ 310740  222   22   GA 74  (N,NA   )CU 70M2                             
+ 310750  242    5   GA 75  (N,2NA  )CU 70M2                             
+ 320670 1141   11   GE 67  (N,D2A  )CO 58M1                             
+ 320740 1122   13   GE 74  (N,PA   )CU 70M2                             
+ 320750  452    2   GE 75  (N,NPA  )CU 70M2                             
+ 330770 1082    5   AS 77  (N,2A   )CU 70M2                             
+ 340870  251    2   SE 87  (N,3NA  )GE 81M1                             
+ 451000  301   14   RH100  (N,2N2A )NB 91M1                             
+ 491180  442    2   IN118  (N,N2P  )AG116M2                             
+ 491222  252    2   IN122M2(N,3NA  )AG116M2                             
+ 501110  412    3   SN111  (N,2NP  )IN109M2                             
+ 511120  342    6   SB112  (N,NH   )IN109M2                             
+ 511120 1162    6   SB112  (N,PT   )IN109M2                             
+ 511350  420    4   SB135  (N,3NP  )SN132                               
+ 521140 1172   13   TE114  (N,DA   )IN109M2                             
+ 531130  231  175   I 113  (N,N3A  )AG101M1                             
+ 531170  292   15   I 117  (N,N2A  )IN109M2                             
+ 541130 1131  175   XE113  (N,T2A  )IN103M1                             
+ 551171  350   30   CS117M1(N,ND2A )SN107                               
+ 551200 1092  175   CS120  (N,3A   )IN109M2                             
+ 711650  302   35   LU165  (N,2N2A )HO156M2                             
+ 721590  351  175   HF159  (N,ND2A )HO149M1                             
+ 721772  421    2   HF177M2(N,3NP  )LU174M1                             
+ 731821  112    2   TA182M1(N,2ND  )HF179M2                             
+ 761710 1142  175   OS171  (N,D2A  )LU162M2                             
+ 771740  232  175   IR174  (N,N3A  )LU162M2                             
+ 802160  180  175   HG216  (N,F    )                                    
+ 832150  372    5   BI215  (N,4N   )BI212M2                             
+ 872210  360  159   FR221  (N,NT2A )PB210                               
+ 882210  361  175   RA221  (N,NT2A )BI210M1                             
+ *********No. OF REACTION TYPES INCLUDED IN THE XS BASIC LIBRARY ***********
+         105
+ *********No. REACTIONS IN THE XS BASIC LIBRARY ***********
+       81857
+ *********No. REACTIONS IN THE XS BASIC LIBRARY
+  NOT INCLUDED IN THE COLLAPSED LIBRARY ***********
+       59374
+ *********No. REACTIONS IN THE XS BASIC LIBRARY
+  INCLUDED IN THE COLLAPSED LIBRARY ***********
+       22483
