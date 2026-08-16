@@ -136,6 +136,9 @@ experimentos**: entre experimentos solo cambia el `inp.5`.
 **Nada se ha borrado.** Donde una simulación se reejecutó, la anterior se conserva
 con extensión `.orig` y suele ser la evidencia de por qué se rehízo.
 
+[!IMPORTANT] 
+El fichero `TFG\Conjunto Simulaciones 1 - Verificacion\collaps 175g\collaps\XSBL.zip` se encuentra comprimido por tener un tamaño superior a 50MB, si se necesita volver a colapsar, se debe descomprimir.
+
 ---
 
 ## Cómo reproducir un caso
