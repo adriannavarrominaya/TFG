@@ -104,8 +104,8 @@ ficheros de entrada que ACAB y resuelven el problema por otro camino.
 
 | Sufijo | Bibliotecas |
 |---|---|
-| `v.1 - Haffner` | Las del trabajo de referencia |
-| `v.1b - Haffner con flujo térmico` | Ídem, con el convenio de flujo alternativo |
+| `v.1 - Referencia` | Las del trabajo de referencia |
+| `v.1b - Referencia con flujo térmico` | Ídem, con el convenio de flujo alternativo |
 | `v.2 - DECAY (2007)` | Secciones de 211 grupos, decaimiento de 2007 |
 | `v.3 - DECAY (2025)` | Secciones de 211 grupos, decaimiento de 2025 |
 | `v.4 - DECAY-XSECTIONS (2025)` | Secciones de 175 grupos, decaimiento de 2025 |
