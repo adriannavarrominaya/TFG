@@ -10,7 +10,15 @@
 
 **Fecha:** Agosto 2026
 
-**Códigos de simulación:** ACAB 2008 (UPM — Activation code) · COLLAPS (preprocesador de secciones eficaces)
+**Códigos de simulación:** ACAB 2008 (UPM — Activation code) · COLLAPS (preprocesador de secciones eficaces) - CHAINS (análisis de cadenas de activación)
+
+---
+
+Desarrollada como parte del Trabajo de Fin de Grado en Ingeniería de la Energía.
+
+![ACAB](https://img.shields.io/badge/NucCalc-ACABv2008-orange) ![COLLAPS](https://img.shields.io/badge/NucCalc-COLLAPS-orange) 
+![CHAINS](https://img.shields.io/badge/NucCalc-CHAINS-orange) 
+![Python](https://img.shields.io/badge/Lang-Python314-blue) 
 
 ---
 
