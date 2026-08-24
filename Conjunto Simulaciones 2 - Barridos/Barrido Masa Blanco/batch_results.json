@@ -7,7 +7,7 @@
   },
   "jobs": [
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m0.123g",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m0.123g",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.514,
@@ -18,8 +18,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m0.123g\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m0.123g",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m0.123g\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m0.123g",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1.000g",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1.000g",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.557,
@@ -38,8 +38,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1.000g\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1.000g",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1.000g\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1.000g",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m10.000g",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m10.000g",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.472,
@@ -58,8 +58,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m10.000g\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m10.000g",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m10.000g\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m10.000g",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m100.000g",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m100.000g",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.601,
@@ -78,8 +78,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m100.000g\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m100.000g",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m100.000g\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m100.000g",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m500.000g",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m500.000g",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.765,
@@ -98,8 +98,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m500.000g\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m500.000g",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m500.000g\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m500.000g",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1000.000g",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1000.000g",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.582,
@@ -118,8 +118,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1000.000g\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1000.000g",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1000.000g\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Masa Blanco\\TeO2m1000.000g",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"

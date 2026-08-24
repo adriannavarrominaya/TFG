@@ -7,7 +7,7 @@
   },
   "jobs": [
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 33.52,
@@ -19,32 +19,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO269_LANL-OWR\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 37.265,
@@ -69,32 +69,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO270_Cf252\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 9.696,
@@ -119,32 +119,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2112_MURR-G1\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 17.93,
@@ -169,32 +169,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2171_HFR-C3\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 35.495,
@@ -219,32 +219,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2172_Phenix\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 13.55,
@@ -269,32 +269,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2175_ITER-DT\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 35.929,
@@ -319,32 +319,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2238_HFIR-VXF3-AD\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -357,7 +357,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 13.396,
@@ -369,32 +369,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2621_SCK-BR2\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 16.467,
@@ -419,32 +419,32 @@
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps\\collaps.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps\\collaps.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "copy",
-          "src": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps\\XSECTION.dat",
-          "dst": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\XSECTION.dat",
+          "src": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps\\XSECTION.dat",
+          "dst": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\XSECTION.dat",
           "estado": "ok"
         },
         {
           "type": "run",
           "cmd": [
-            "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\acab.exe"
+            "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\acab.exe"
           ],
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
         },
         {
           "type": "check_flux",
-          "path": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps\\FLUX.inf",
+          "path": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2640_LR-0-Void\\collaps\\FLUX.inf",
           "data": {
             "ilib": 12,
             "iesf": 5,

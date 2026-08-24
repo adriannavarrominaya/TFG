@@ -106,6 +106,20 @@ que el módulo lee.
 Comprobaciones independientes, comentadas. **No usan la suite**: leen los mismos
 ficheros de entrada que ACAB y resuelven el problema por otro camino.
 
+```bash
+python3 bateman_i131.py "v.2 - DECAY (2007)"                 
+python3 bateman_i131.py CARPETA1 CARPETA2 CARPETA3 CARPETA4  
+python3 bateman_i131.py --descomponer CARPETA_A CARPETA_B    
+python3 bateman_i131.py --curva 0.2709,0.4805 CARPETA        
+python3 bateman_i131.py --csv salida.csv CARPETA            
+```
+
+Los argumentos son las carpetas de simulación tal cual. 
+
+```bash
+python3 interpolante_exp1.py CARPETA serie1.csv [serie2.csv ...]
+```
+
 ---
 
 ## Nomenclatura de los casos

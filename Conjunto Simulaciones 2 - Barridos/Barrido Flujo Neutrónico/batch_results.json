@@ -7,7 +7,7 @@
   },
   "jobs": [
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.049810719266786214",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.049810719266786214",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.513,
@@ -18,8 +18,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.049810719266786214\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.049810719266786214",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.049810719266786214\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.049810719266786214",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.664474995018928",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.664474995018928",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.57,
@@ -38,8 +38,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.664474995018928\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.664474995018928",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.664474995018928\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.664474995018928",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.8477784419207013",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.8477784419207013",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.455,
@@ -58,8 +58,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.8477784419207013\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x0.8477784419207013",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.8477784419207013\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x0.8477784419207013",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x1",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x1",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.56,
@@ -78,8 +78,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x1\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x1",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x1\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x1",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "workdir": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x996.2143853357243",
+      "workdir": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x996.2143853357243",
       "estado": "ok",
       "returncode": 0,
       "duracion_s": 2.612,
@@ -98,8 +98,8 @@
       "steps": [
         {
           "type": "run",
-          "cmd": "\"C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x996.2143853357243\\acab.exe\"",
-          "cwd": "C:\\trabajo\\Documentos\\Documentos\\cosasNiños\\Adrian\\UNIVERSIDAD\\4º GIE-TE\\2º Semestre\\TFG\\Documentacion\\simulaciones\\Conjunto Simulaciones 2 - Barridos\\Barrido Flujo Neutrónico\\TeO2x996.2143853357243",
+          "cmd": "\"C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x996.2143853357243\\acab.exe\"",
+          "cwd": "C:\\git\\TFG\\Conjunto Simulaciones 2 - Barridos\\Barrido Espectro Neutrónico\\TeO2x996.2143853357243",
           "returncode": 0,
           "timed_out": false,
           "estado": "ok"

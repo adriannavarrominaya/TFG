@@ -1,0 +1,447 @@
+{
+  "timestamp": "2026-08-20T16:40:01+00:00",
+  "sweep_type": "time",
+  "description": "Barrido temporal — tiempo de irradiación",
+  "fixed_params": {
+    "XNORM_base": 1,
+    "phi_base": "1.0038e+14",
+    "malla_enfriamiento": "comun a los catorce puntos, 92 nodos hasta 48 h"
+  },
+  "n": 14,
+  "simulations": [
+    {
+      "folder": "TeO2Tirr_0p25h",
+      "params": {
+        "t_irr_fin": 0.25,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 0.25,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_0p5h",
+      "params": {
+        "t_irr_fin": 0.5,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 0.5,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_1h",
+      "params": {
+        "t_irr_fin": 1.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 1.0,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_2h",
+      "params": {
+        "t_irr_fin": 2.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 2.0,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_4h",
+      "params": {
+        "t_irr_fin": 4.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 4.0,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_7h",
+      "params": {
+        "t_irr_fin": 7.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 7.0,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_12h",
+      "params": {
+        "t_irr_fin": 12.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 12.0,
+            "pasos": 4
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_20h",
+      "params": {
+        "t_irr_fin": 20.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 20.0,
+            "pasos": 7
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_32h",
+      "params": {
+        "t_irr_fin": 32.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 32.0,
+            "pasos": 11
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_50h",
+      "params": {
+        "t_irr_fin": 50.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 50.0,
+            "pasos": 17
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_75h",
+      "params": {
+        "t_irr_fin": 75.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 75.0,
+            "pasos": 25
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_100h",
+      "params": {
+        "t_irr_fin": 100.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 100.0,
+            "pasos": 34
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_125h",
+      "params": {
+        "t_irr_fin": 125.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 125.0,
+            "pasos": 42
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    },
+    {
+      "folder": "TeO2Tirr_150h",
+      "params": {
+        "t_irr_fin": 150.0,
+        "t_cool_fin": 48.0,
+        "historial_irr": [
+          {
+            "t_fin": 150.0,
+            "pasos": 50
+          }
+        ],
+        "historial_cool": [
+          {
+            "t_fin": 1.5,
+            "pasos": 30
+          },
+          {
+            "t_fin": 6.0,
+            "pasos": 18
+          },
+          {
+            "t_fin": 24.0,
+            "pasos": 36
+          },
+          {
+            "t_fin": 48.0,
+            "pasos": 8
+          }
+        ]
+      }
+    }
+  ]
+}

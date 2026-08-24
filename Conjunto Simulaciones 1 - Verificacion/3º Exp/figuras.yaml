@@ -1,0 +1,138 @@
+# ============================================================
+# Configuración general del análisis de activación ACAB
+# ============================================================
+#
+# ── Secciones ────────────────────────────────────────────────
+#
+#   figuras     Lista de figuras a generar (ver campos más abajo).
+#     - num         Número de figura (título automático si no hay 'titulo').
+#       titulo      Título personalizado (opcional).
+#       mostrar_irr true → eje continuo irr.+enf.  false → solo enfriamiento.
+#       series      Lista de isótopos en la misma figura:
+#         iso       Clave tal como aparece en fort.6 (TE121, I131, XE133M…).
+#         label     Etiqueta Unicode para la leyenda.
+#         color     Color matplotlib (opcional).
+# ============================================================
+
+# ── Figuras ───────────────────────────────────────────────────────────────────
+figuras:
+
+  # ── Teluro ──────────────────────────────────────────────────────────────────
+
+  - num: 1
+    titulo: "Figura 1: Flujos Neutrónicos ¹²¹Te"
+    mostrar_irr: false
+    series:
+      - iso: TE121
+        label: "¹²¹Te"
+
+  - num: 2
+    titulo: "Figura 2: Flujos Neutrónicos ¹²⁵ᵐTe"
+    mostrar_irr: false
+    series:
+      - iso: TE125M
+        label: "¹²⁵ᵐTe"
+
+  - num: 3
+    titulo: "Figura 3: Flujos Neutrónicos ¹²⁷Te"
+    mostrar_irr: false
+    series:
+      - iso: TE127
+        label: "¹²⁷Te"
+
+  - num: 4
+    titulo: "Figura 4: Flujos Neutrónicos ¹²⁹Te"
+    mostrar_irr: false
+    series:
+      - iso: TE129
+        label: "¹²⁹Te"
+      - iso: TE129M
+        label: "¹²⁹ᵐTe"
+
+  - num: 5
+    titulo: "Figura 5: Flujos Neutrónicos ¹³¹Te"
+    mostrar_irr: false
+    series:
+      - iso: TE131
+        label: "¹³¹Te"
+      - iso: TE131M
+        label: "¹³¹ᵐTe"
+
+  - num: 6
+    mostrar_irr: false
+    series:
+      - iso: TE133
+        label: "¹³³Te"
+      - iso: TE133M
+        label: "¹³³ᵐTe"
+
+  - num: 7
+    mostrar_irr: false
+    series:
+      - iso: TE132
+        label: "¹³²Te"
+
+  # ── Xenón ────────────────────────────────────────────────────────────────────
+
+  - num: 8
+    titulo: "Figura 8: Flujos Neutrónicos ¹²⁹ᵐXe  (¹²⁹Xe estable)"
+    mostrar_irr: false
+    series:
+      - iso: XE129M
+        label: "¹²⁹ᵐXe"
+
+  - num: 9
+    titulo: "Figura 9: ¹³¹ᵐXe  (¹³¹Xe estable)"
+    mostrar_irr: false
+    series:
+      - iso: XE131M
+        label: "¹³¹ᵐXe"
+
+  - num: 10
+    mostrar_irr: false
+    series:
+      - iso: XE133
+        label: "¹³³Xe"
+      - iso: XE133M
+        label: "¹³³ᵐXe"
+
+  # ── Yodo ─────────────────────────────────────────────────────────────────────
+
+  - num: 11
+    mostrar_irr: false
+    series:
+      - iso: I130M
+        label: "¹³⁰ᵐI"
+
+  - num: 12
+    mostrar_irr: false
+    series:
+      - iso: I132
+        label: "¹³²I"
+      - iso: I132M
+        label: "¹³²ᵐI"
+
+  - num: 13
+    mostrar_irr: false
+    series:
+      - iso: I128
+        label: "¹²⁸I"
+
+  - num: 14
+    titulo: "Figura 14: ¹³¹I  (isótopo de interés principal)"
+    mostrar_irr: true
+    series:
+      - iso: I131
+        label: "¹³¹I"
+
+  - num: 15
+    mostrar_irr: false
+    series:
+      - iso: I133
+        label: "¹³³I"
+
+  - num: 16
+    mostrar_irr: false
+    series:
+      - iso: I134
+        label: "¹³⁴I"
