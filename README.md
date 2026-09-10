@@ -57,7 +57,7 @@ la curva: **el máximo de actividad no está en el instante de apagar el reactor
 ```
 Conjunto Simulaciones 1 - Verificacion/
 Conjunto Simulaciones 2 - Simulacion de Referencia/
-Conjunto Simulaciones 2 - Barridos/
+Conjunto Simulaciones 2 - Cálculo paramétricos/
 Conjunto Simulaciones 2 - Análisis de cadenas/
 Scripts/
 ```
@@ -65,7 +65,7 @@ Scripts/
 ### `Conjunto Simulaciones 1 - Verificacion`
 
 Réplica de los cuatro experimentos del trabajo de referencia (Haffner, Miller y
-Morris, 2019), cada uno con varias bibliotecas de datos nucleares. Los cuatro
+Morris, 2019), cada uno con varias librerías de datos nucleares. Los cuatro
 comparten blanco y difieren en el historial temporal y el flujo:
 
 | Experimento | Irradiación | Flujo total [n·cm⁻²·s⁻¹] |
@@ -77,19 +77,19 @@ comparten blanco y difieren en el historial temporal y el flujo:
 
 ### `Conjunto Simulaciones 2 - Simulacion de Referencia`
 
-La simulación sobre la que se construyen los barridos y el análisis de cadenas.
-Punto de trabajo del cuarto experimento, biblioteca de 211 grupos con decaimiento de
+La simulación sobre la que se construyen los cálculos paramétricos y el análisis de cadenas.
+Punto de trabajo del cuarto experimento, librería de 211 grupos con decaimiento de
 2025, y una malla temporal de **79 nodos de irradiación y 120 de enfriamiento**.
 
-Sus 79 nodos de irradiación **son en sí mismos el barrido de historial temporal**:
+Sus 79 nodos de irradiación **son en sí mismos el cálculo paramétrico de historial temporal**:
 cada uno da el inventario para su tiempo de irradiación, y desde cualquiera de ellos
 se puede propagar analíticamente el enfriamiento.
 
-### `Conjunto Simulaciones 2 - Barridos`
+### `Conjunto Simulaciones 2 - Cálculos paramétricos`
 
-Tres barridos paramétricos, cada uno con su `sweep_manifest.json`:
+Tres cálculos paramétricos, cada uno con su `parametric_study_manifest.json`:
 
-| Barrido | Puntos | Qué cambia del `inp.5` |
+| Cálculo paramétrico | Puntos | Qué cambia del `inp.5` |
 |---|---|---|
 | Flujo | 5, de 5×10¹² a 1×10¹⁷ | **`XNORM`, bloque 9** — no el flujo del bloque 3 |
 | Masa | 6, de 0,123 a 1000 g | Bloque 5 |
@@ -124,7 +124,7 @@ python3 interpolante_exp1.py CARPETA serie1.csv [serie2.csv ...]
 
 ## Nomenclatura de los casos
 
-| Sufijo | Bibliotecas |
+| Sufijo | Librerías |
 |---|---|
 | `v.1 - Referencia` | Las del trabajo de referencia |
 | `v.1b - Referencia con flujo térmico` | Ídem, con el convenio de flujo alternativo |
@@ -152,7 +152,7 @@ experimentos**: entre experimentos solo cambia el `inp.5`.
 |---|---|
 | `inp.5` | Entrada de ACAB |
 | `fort.6` | Salida principal: inventarios y actividades |
-| `XSECTION.dat`, `DECAY.dat`, `REACTIONS.dat` | Bibliotecas |
+| `XSECTION.dat`, `DECAY.dat`, `REACTIONS.dat` | Librerías |
 | `*.orig` | Versión anterior conservada, cuando la hubo |
 
 > 💡 **No se ha borrado nada.** Cuando una simulación se reejecutó, la anterior se conserva con extensión `.orig` y suele ser la evidencia de por qué se rehízo.
@@ -166,7 +166,7 @@ experimentos**: entre experimentos solo cambia el `inp.5`.
 
 ```bash
 cd "<carpeta del caso>"
-acab.exe          # lee inp.5 y las tres bibliotecas del directorio
+acab.exe          # lee inp.5 y las tres librerías del directorio
 ```
 
 Y para comprobar el resultado sin usar la suite:
@@ -205,7 +205,7 @@ irradiación.
 
 ### 4. La malla de salida es también la malla de integración ⚠
 
-**Es la advertencia importante.** Dos ejecuciones de ACAB con las tres bibliotecas
+**Es la advertencia importante.** Dos ejecuciones de ACAB con las tres librerías
 idénticas por huella, el mismo flujo y la misma composición, que difieran únicamente
 en el número de instantes solicitados a la salida, **dan resultados distintos**: hasta
 un **13,9 %** en el ¹³¹I.
@@ -226,7 +226,7 @@ con el mismo λΔt.
 ### 5. La actividad impresa no es exactamente λN
 
 El cociente entre la actividad que ACAB imprime y λ·N calculado con la semivida de su
-propia biblioteca vale **1,0004 de media**, y es mayor que uno en las 23 especies
+propia librería vale **1,0004 de media**, y es mayor que uno en las 23 especies
 comprobadas. Es un desplazamiento sistemático en la conversión de átomos a actividad,
 del orden del 0,04 %.
 
@@ -275,6 +275,6 @@ Si utilizas este material, cita el TFG y el trabajo de referencia replicado:
 ## Licencia y alcance
 
 Los ficheros de entrada y salida de las simulaciones se publican para permitir la
-verificación independiente de los resultados de la memoria. **Las bibliotecas de datos
+verificación independiente de los resultados de la memoria. **Las librerías de datos
 nucleares están sujetas a las condiciones de sus evaluadores originales** y se
 incluyen únicamente para hacer reproducible el cálculo.

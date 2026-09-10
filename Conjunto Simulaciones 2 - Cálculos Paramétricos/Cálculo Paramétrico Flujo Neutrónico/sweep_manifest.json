@@ -1,7 +1,7 @@
 {
   "timestamp": "2026-08-13T19:38:24+00:00",
-  "sweep_type": "flux",
-  "description": "Barrido Flujo Neutrónico",
+  "parametric_study_type": "flux",
+  "description": "Cálculo Paramétrico Flujo Neutrónico",
   "fixed_params": {
     "XNORM_base": 1,
     "phi_base": "1.0038e+14"

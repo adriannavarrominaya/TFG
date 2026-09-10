@@ -6,7 +6,7 @@ Simulaciones    : 5
 Fecha (UTC)     : 2026-08-13T19:38:24+00:00
 
 Descripción:
-Barrido Flujo Neutrónico
+Cálculo Paramétrico Flujo Neutrónico
 
 Parámetros fijos (del fichero base):
   - XNORM_base: 1

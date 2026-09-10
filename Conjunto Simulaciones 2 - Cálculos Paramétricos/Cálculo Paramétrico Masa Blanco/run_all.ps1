@@ -1,4 +1,4 @@
-# run_all.ps1 — lanza ACAB en cada subcarpeta del barrido.
+# run_all.ps1 — lanza ACAB en cada subcarpeta del cálculo paramétrico.
 # Ajusta $ACAB_EXE a la ruta del ejecutable de ACAB.
 $ACAB_EXE = "acab.exe"
 $dirs = @(

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# run_all.sh — lanza ACAB en cada subcarpeta del barrido.
+# run_all.sh — lanza ACAB en cada subcarpeta del cálculo paramétrico.
 # Ajusta ACAB_EXE a la ruta del ejecutable de ACAB.
 set -u
 ACAB_EXE="${ACAB_EXE:-acab}"

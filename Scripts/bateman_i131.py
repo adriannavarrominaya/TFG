@@ -28,9 +28,9 @@ se imprime la comparacion entre casos.
 
 Opciones
 --------
-    --tmax H        Extension del barrido fino para localizar el maximo,
+    --tmax H        Extension del cálculo paramétrico fino para localizar el maximo,
                     en horas (por defecto 6).
-    --dt S          Paso del barrido fino, en segundos (por defecto 1).
+    --dt S          Paso del cálculo paramétrico fino, en segundos (por defecto 1).
     --curva H1,H2   Imprime la curva interpolada en los instantes dados,
                     en horas, separados por comas. Sirve para usar la
                     solucion como interpolante continuo (apartado 4.4.1).
@@ -93,7 +93,7 @@ def leer_xsection(ruta):
 def leer_decay(ruta, zaid):
     """Semivida [s], ramas y abundancia isotopica [%] de un nucleido.
 
-    Formato de la biblioteca de decaimiento (manual ACAB v.2008): el registro
+    Formato de la librería de decaimiento (manual ACAB v.2008): el registro
     ocupa dos lineas; THALF y FIT estan en la primera, FB y ABUN en la segunda.
     """
     lineas = _leer(ruta).split("\n")
@@ -317,7 +317,7 @@ def cargar_caso(carpeta, flujo=None):
         flujo = inp["flujo"]
 
     # N(Te-130) exacto: densidad atomica del inp.5 por abundancia de la
-    # biblioteca. NO se toma del eco del fort.6, que la imprime redondeada.
+    # librería. NO se toma del eco del fort.6, que la imprime redondeada.
     n_te130 = inp["dens_te"] * 1e24 * te130["ABUN"] / 100.0
 
     # Duracion de la irradiacion, deducida del propio fort.6.

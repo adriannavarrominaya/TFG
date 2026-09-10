@@ -36,7 +36,7 @@ NA = 6.02214076e23        # 1/mol
 # ---------------------------------------------------------------------------
 # La idea es no fiarse de ningún valor tabulado a mano: las secciones eficaces
 # y las semividas se leen de los mismos ficheros que ACAB va a usar, de modo
-# que si la biblioteca cambia, la comprobación cambia con ella.
+# que si la librería cambia, la comprobación cambia con ella.
 
 def seccion(carpeta, zaid, mt):
     """Sección eficaz colapsada, en barnios, del `XSECTION.dat`.
@@ -54,7 +54,7 @@ def seccion(carpeta, zaid, mt):
                     return float(lineas[k].strip())
                 except ValueError:
                     continue
-    return None                      # el canal no existe en esta biblioteca
+    return None                      # el canal no existe en esta librería
 
 
 def decaimiento(carpeta, zaid):
@@ -93,7 +93,7 @@ def cadena_i131(carpeta, flujo, n_te130):
     lam_g, lam_m, lam_i = LN2 / t_g, LN2 / t_m, LN2 / t_i
 
     # Destrucción por captura durante la irradiación. Ojo: algunos canales no
-    # existen en todas las bibliotecas, y `seccion` devuelve None en ese caso.
+    # existen en todas las librerías, y `seccion` devuelve None en ese caso.
     def sigma_o_cero(zaid):
         s = seccion(carpeta, zaid, 1020)
         return 0.0 if s is None else s * BARN * flujo

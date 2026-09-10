@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-08-13T19:47:51+00:00",
-  "sweep_type": "spectrum",
+  "parametric_study_type": "spectrum",
   "description": "Barrido Espectro",
   "fixed_params": {
     "XNORM_base": 1,

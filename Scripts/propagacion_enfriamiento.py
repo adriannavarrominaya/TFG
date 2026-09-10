@@ -6,8 +6,8 @@ PROPAGACIÓN ANALÍTICA DEL ENFRIAMIENTO — bloque 5.3 del Conjunto 2
 
 Qué hace y por qué existe
 -------------------------
-El barrido de historial temporal NO se ejecuta. Los 79 nodos de irradiación de la
-simulación de referencia SON el barrido: cada uno es el inventario que quedaría al
+El cálculo paramétrico de historial temporal NO se ejecuta. Los 79 nodos de irradiación de la
+simulación de referencia SON el cálculo paramétrico: cada uno es el inventario que quedaría al
 apagar tras irradiar ese tiempo, y desde cualquiera de ellos el enfriamiento se
 propaga sin volver a ejecutar ACAB.
 
@@ -37,7 +37,7 @@ Salidas
 -------
 1. VERIFICACIÓN contra los 120 nodos de enfriamiento que ACAB sí imprime.
 2. CONTROL DE RAMA: qué pasa si se omite la β⁻ del ¹³¹ᵐTe (firma de rama ausente).
-3. TABLA DEL BARRIDO: t_máx, t_cruce, separación, precio de la espera y purezas
+3. TABLA DEL CÁLCULO PARAMÉTRICO: t_máx, t_cruce, separación, precio de la espera y purezas
    para cada uno de los 79 nodos.
 4. CONTROL ASINTÓTICO (E3-bis): A_esp debe decaer como el ¹³¹I cuando la masa de
    yodo se congela. Refuta el propagador, no la física.
@@ -113,7 +113,7 @@ def leer_decay(ruta):
 
     NUCL = Z*10^4 + A*10 + M
     """
-    biblioteca = {}
+    libreria = {}
     lineas = open(ruta, encoding='latin-1').read().replace('\r\n', '\n').split('\n')
     i = 1                                        # se salta la tarjeta de título
     while i + 1 < len(lineas):
@@ -134,11 +134,11 @@ def leer_decay(ruta):
         t_s = math.inf if estable else thalf * UNIDADES_THALF.get(iu, 1.0)
         lam = 0.0 if (estable or t_s in (0.0, math.inf)) else math.log(2) / t_s
 
-        biblioteca[nucl] = dict(Z=z, A=a, M=m, iu=iu, thalf_s=t_s, lam=lam,
+        libreria[nucl] = dict(Z=z, A=a, M=m, iu=iu, thalf_s=t_s, lam=lam,
                                 FB=fb, FBX=fbx, FPEC=fpec, FPECX=fpecx,
                                 FA=fa, FIT=fit, FSF=fsf, FN=fn)
         i += 2
-    return biblioteca
+    return libreria
 
 
 def nombre(nucl):
@@ -276,15 +276,15 @@ def tabla_actividad(ruta_fort6, ruta_inp5, especies=None):
 # 3. El sistema de decaimiento
 # ---------------------------------------------------------------------------
 
-def especies_TeIXe(biblioteca, amin=127, amax=136):
-    """Te, I y Xe en el rango de masas, con isómeros, presentes en la biblioteca."""
-    seleccion = [n for n, r in biblioteca.items()
+def especies_TeIXe(libreria, amin=127, amax=136):
+    """Te, I y Xe en el rango de masas, con isómeros, presentes en la libreria."""
+    seleccion = [n for n, r in libreria.items()
                  if r['Z'] in (52, 53, 54) and amin <= r['A'] <= amax]
-    return sorted(seleccion, key=lambda n: (biblioteca[n]['A'], biblioteca[n]['Z'],
-                                            -biblioteca[n]['M']))
+    return sorted(seleccion, key=lambda n: (libreria[n]['A'], libreria[n]['Z'],
+                                            -libreria[n]['M']))
 
 
-def matriz_decaimiento(biblioteca, especies):
+def matriz_decaimiento(libreria, especies):
     """A[i,j] = producción de i por decaimiento de j; A[j,j] = −λ_j.
 
     Las ramas que salen del conjunto se pierden (sumidero), que es correcto: lo que
@@ -294,7 +294,7 @@ def matriz_decaimiento(biblioteca, especies):
     A = np.zeros((len(especies), len(especies)))
     fugas = {}
     for n in especies:
-        r = biblioteca[n]
+        r = libreria[n]
         j = indice[n]
         A[j, j] = -r['lam']
         perdida = 0.0
@@ -364,7 +364,7 @@ def main():
         description='Propagación analítica del enfriamiento desde los nodos de '
                     'irradiación de una simulación de referencia de ACAB.')
     ap.add_argument('referencia', help='directorio con inp.5, fort.6 y DECAY.dat')
-    ap.add_argument('--csv', help='vuelca la tabla del barrido a un CSV')
+    ap.add_argument('--csv', help='vuelca la tabla del cálculo paramétrico a un CSV')
     ap.add_argument('--dt', type=float, default=0.05,
                     help='paso de la malla fina de enfriamiento, en horas (0,05)')
     ap.add_argument('--tmax', type=float, default=400.0,
@@ -378,15 +378,15 @@ def main():
         if not os.path.exists(r):
             sys.exit('falta %s' % r)
 
-    biblioteca = leer_decay(ruta_decay)
-    especies = especies_TeIXe(biblioteca)
+    libreria = leer_decay(ruta_decay)
+    especies = especies_TeIXe(libreria)
     nombres = [nombre(n) for n in especies]
-    A, indice, fugas = matriz_decaimiento(biblioteca, especies)
-    lam = np.array([biblioteca[n]['lam'] for n in especies])
+    A, indice, fugas = matriz_decaimiento(libreria, especies)
+    lam = np.array([libreria[n]['lam'] for n in especies])
 
     idx_131 = nombres.index('I131')
     yodos = [i for i, s in enumerate(nombres) if s.startswith('I1')]
-    masa = np.array([MASA_ATOMICA_YODO.get(s, float(biblioteca[especies[i]]['A']))
+    masa = np.array([MASA_ATOMICA_YODO.get(s, float(libreria[especies[i]]['A']))
                      for i, s in enumerate(nombres)])
     techo = lam[idx_131] * N_AVOGADRO / MASA_ATOMICA_YODO['I131'] / 1e6   # MBq/g
 
@@ -472,10 +472,10 @@ def main():
     print('   la curva satura, así que un ajuste sobre los 144 h da %+.2f %% / 100 h)'
           % (np.polyfit(t_enf, deriva, 1)[0] * 100))
 
-    # ---------------- 3. el barrido --------------------------------------
+    # ---------------- 3. el cálculo paramétrico --------------------------------------
     print()
     print('=' * 74)
-    print('3. EL BARRIDO — los 79 nodos de irradiación, propagados')
+    print('3. EL CÁLCULO PARAMÉTRICO — los 79 nodos de irradiación, propagados')
     print('=' * 74)
     nt = int(round(args.tmax / args.dt)) + 1
     t = np.arange(nt) * args.dt
@@ -500,7 +500,7 @@ def main():
 
     filas = []
     for j in range(len(t_irr)):
-        if A131[:, j].max() <= 0:          # el nodo t = 0 no es un punto del barrido
+        if A131[:, j].max() <= 0:          # el nodo t = 0 no es un punto del cálculo paramétrico
             continue
         tm, am = _pico_refinado(t, A131[:, j])
         tc = _cruce(t, P[:, j])

@@ -164,7 +164,7 @@ def _densidad(carpeta):
     Es el divisor que la suite emplea al convertir Bq/cm3 a MBq/g, y no
     coincide con el que se obtiene aplicando pesos atomicos estandar: ACAB
     compone la masa con numeros masicos ponderados por las abundancias de su
-    biblioteca (apartado 3.3.1).
+    librería
 
     Hay que anclar la busqueda al encabezado del bloque: el fort.6 contiene
     varias filas TOTAL antes de esa, pertenecientes a bloques distintos.

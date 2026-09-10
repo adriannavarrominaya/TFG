@@ -12,7 +12,7 @@ Por qué no sale del analizador
 La gráfica de A_esp(t) del analizador no dibuja el techo: el manual lo menciona
 solo como propiedad física —«≈4,60×10⁹ MBq/g»— y no como elemento trazado. No
 es una limitación, sino una decisión razonable de la herramienta, porque **el
-techo no es único**: se calcula con la semivida del ¹³¹I de la biblioteca de
+techo no es único**: se calcula con la semivida del ¹³¹I de la librería de
 cada simulación, y la variante que replica los datos de la referencia sustituye
 ese campo (693 400 s frente a 693 200 s).
 
